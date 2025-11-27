@@ -1,14 +1,9 @@
 # 📊 Análisis de Datos Masivos para el Negocio (AdventureWorks · R)
 
-<<<<<<< HEAD
 Este repositorio contiene el desarrollo completo de la **última actividad de la asignatura – Análisis de Datos Masivos para el Negocio**, utilizando datos derivados de AdventureWorks.  
 Incluye **modelos predictivos, segmentación de clientes, análisis descriptivo y forecast de ventas** mediante **R**.
 
 Su objetivo es demostrar competencias avanzadas en **tratamiento de datos, machine learning, estadística, R y analítica para negocio**.
-=======
-Este repositorio recoge la **última actividad para la asignatura – Análisis de Datos Masivos para el Negocio**, realizada sobre datos de *AdventureWorks*.  
-El objetivo es demostrar competencias en **análisis de datos, machine learning clásico, segmentación de clientes y series temporales** utilizando **R**.
->>>>>>> 81d9ad8b757b0b25a3ca6610bcac0ee923229a72
 
 ---
 
@@ -41,7 +36,7 @@ Los datos utilizados están en: [DataSet_SQL_Analisis_Masivo_de_Datos.xlsx](data
 ├── docs/
 │   ├── Informe Análisis de datos masivos para el negocio.docx
 └── README.md
-
+```
 ---
 
 ## 4. 🔍 Flujo de trabajo analítico (resumen)
