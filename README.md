@@ -21,7 +21,7 @@ Su objetivo es demostrar competencias avanzadas en **tratamiento de datos, machi
 
 ## 2. 📁 Datos
 
-Los datos utilizados están en: [DataSet SQL Analisis Masivo de Datos.xlsx](../data/DataSet%20SQL%20Analisis%20Masivo%20de%20Datos.xlsx)
+Los datos utilizados están en: [DataSet SQL Analisis Masivo de Datos.xlsx](https://github.com/condecalderonjorge/Machine-Learning-R-Adventureworks/blob/main/data/DataSet%20SQL%20Analisis%20Masivo%20de%20Datos.xlsx)
 
 ---
 
