@@ -21,7 +21,7 @@ Su objetivo es demostrar competencias avanzadas en **tratamiento de datos, machi
 
 ## 2. 📁 Datos
 
-Los datos utilizados están en: [DataSet_SQL_Analisis_Masivo_de_Datos.xlsx](data/DataSet SQL Analisis Masivo de Datos.xlsx)
+Los datos utilizados están en: [DataSet SQL Analisis Masivo de Datos.xlsx](data/DataSet SQL Analisis Masivo de Datos.xlsx)
 
 ---
 
