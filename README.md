@@ -1,35 +1,31 @@
-# Análisis de Datos Masivos para el Negocio (AdventureWorks con R)
+# 📊 Análisis de Datos Masivos para el Negocio (AdventureWorks · R)
 
-Este repositorio recoge la **Actividad 3 – Análisis de Datos Masivos para el Negocio**, realizada sobre datos de *AdventureWorks*.  
-El objetivo es demostrar competencias en **análisis de datos, machine learning clásico, segmentación de clientes y series temporales** utilizando **R**.
+Este repositorio contiene el desarrollo completo de la **última actividad de la asignatura – Análisis de Datos Masivos para el Negocio**, utilizando datos derivados de AdventureWorks.  
+Incluye **modelos predictivos, segmentación de clientes, análisis descriptivo y forecast de ventas** mediante **R**.
+
+Su objetivo es demostrar competencias avanzadas en **tratamiento de datos, machine learning, estadística, R y analítica para negocio**.
 
 ---
 
-## 1. Objetivos del proyecto
+## 1. 🎯 Objetivos del proyecto
 
-- Analizar el perfil de los clientes y su relación con la **compra de bicicletas**.
+- Analizar el perfil de clientes y su relación con la **compra de bicicletas**.
 - Construir y comparar **modelos de clasificación**:
   - Regresión logística.
-  - Árboles de decisión.
-- Segmentar la base de clientes mediante **clusterización (k-means)**.
-- Predecir las **ventas diarias futuras** con un modelo de **series temporales (ARIMA)**.
-- Traducir los resultados técnicos en **insights de negocio** accionables.
+  - Árbol de decisión.
+- Identificar segmentos mediante **k-means**.
+- Analizar y predecir ventas diarias mediante **modelos de series temporales ARIMA**.
+- Derivar conclusiones accionables para negocio a partir de evidencias cuantitativas.
 
 ---
 
-## 2. Datos
+## 2. 📁 Datos
 
-Los datos proceden del fichero:
-
-- `data/DataSet_SQL_Analisis_Masivo_de_Datos.xlsx`  
-  - Hoja **"ST Ventas Totales"**: ventas diarias (serie temporal) desde 2011 a 2014. :contentReference[oaicite:3]{index=3}  
-  - Hoja **"Var Discreta Adq Bicicleta"**: panel de clientes con:
-    - Variable objetivo: `BikePurchase` (compra/no compra de bicicleta).
-    - Variables explicativas: edad, estado civil, renta anual, educación, ocupación, género, hijos, coche en propiedad, etc.   
+Los datos utilizados están en: [DataSet_SQL_Analisis_Masivo_de_Datos.xlsx](data/DataSet_SQL_Analisis_Masivo_de_Datos.xlsx)
 
 ---
 
-## 3. Estructura del repositorio
+## 3. 📂 Estructura del repositorio
 
 ```text
 .
@@ -38,6 +34,44 @@ Los datos proceden del fichero:
 ├── R/
 │   └── 01_analisis_clientes_ventas_modelos.R
 ├── docs/
-│   ├── Informe_Actividad_3_ADM.pdf
-│   └── COMPETENCIAS.md   (opcional)
+│   ├── Informe Análisis de datos masivos para el negocio.docx
 └── README.md
+
+---
+
+## 4. 🔍 Flujo de trabajo analítico (resumen)
+
+### 4.1. Preparación y exploración
+- Importación de datos (`read_excel`), limpieza, recodificación.
+- Detección de NA, outliers, correlaciones y `summary()`.
+- Creación de dataset numérico para modelado.  
+
+### 4.2. Modelos de clasificación
+**Regresión logística**
+- Train/test (80/20), `glm()`, matrices de confusión.
+  
+**Árbol de decisión**
+- Modelo `rpart()`, visualización con `rpart.plot`.  
+
+### 4.3. Importancia de variables
+- Importancia en logística y árboles (Gini).
+- Visualización con `barplot()`.  
+
+### 4.4. Segmentación (K-means)
+- Variables numéricas, número óptimo de clusters (`fviz_nbclust`, `NbClust`).
+- Modelos 3–4 clusters y perfilado.  
+
+### 4.5. Series temporales (ARIMA)
+- Conversión a `ts()`, train/test.
+- `auto.arima()`, `forecast()`, `accuracy()`.  
+
+---
+
+## 5. 📚 Librerías utilizadas (resumen)
+`dplyr`, `psych`, `ggplot2`, `lattice`, `readxl`,  
+`caret`, `rpart`, `rpart.plot`, `caTools`,  
+`factoextra`, `NbClust`, `forecast`, `future`.
+
+
+
+
