@@ -1,6 +1,6 @@
 # Análisis de Datos Masivos para el Negocio (AdventureWorks con R)
 
-Este repositorio recoge la **Actividad 3 – Análisis de Datos Masivos para el Negocio**, realizada sobre datos de *AdventureWorks*.  
+Este repositorio recoge la **última actividad para la asignatura – Análisis de Datos Masivos para el Negocio**, realizada sobre datos de *AdventureWorks*.  
 El objetivo es demostrar competencias en **análisis de datos, machine learning clásico, segmentación de clientes y series temporales** utilizando **R**.
 
 ---
